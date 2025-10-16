@@ -38,6 +38,10 @@
 #     a.remove(20)
 # print(a)
 
-#과제18
-x=[i for i in range(1,6)]
+# #과제18
+# x=[i for i in range(1,6)]
+# print(x)
+
+#과제19
+x=[i for i in range(1,20)if i%2==1]
 print(x)
