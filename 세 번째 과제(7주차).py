@@ -26,8 +26,14 @@
 
 # print(y,'and',z)
 
-#과제16
-x=list(map(int, input('숫자10개 입력:').split()))
-x.remove(min(x))
-x.remove(max(x))
-print(sum(x))
+# #과제16
+# x=list(map(int, input('숫자10개 입력:').split()))
+# x.remove(min(x))
+# x.remove(max(x))
+# print(sum(x))
+
+#과제17
+a=[10,20,30,40,30,20,10]
+while 20 in a:
+    a.remove(20)
+print(a)
