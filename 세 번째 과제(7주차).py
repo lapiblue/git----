@@ -1,10 +1,15 @@
-#과제11
-x=input('숫자5개 입력:').split()
-y=input('숫자1개 입력:')
-x.append(y)
-print(x)
+# #과제11
+# x=input('숫자5개 입력:').split()
+# y=input('숫자1개 입력:')
+# x.append(y)
+# print(x)
 
-#과제12
+# #과제12
+# x=input('숫자5개 입력:').split()
+# x=x[:-2]
+# print(x)
+
+#과제13
 x=input('숫자5개 입력:').split()
-x=x[:-2]
-print(x)
+for index, value in enumerate(x, start=101):
+    print(index, value)
