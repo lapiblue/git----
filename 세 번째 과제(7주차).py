@@ -32,8 +32,12 @@
 # x.remove(max(x))
 # print(sum(x))
 
-#과제17
-a=[10,20,30,40,30,20,10]
-while 20 in a:
-    a.remove(20)
-print(a)
+# #과제17
+# a=[10,20,30,40,30,20,10]
+# while 20 in a:
+#     a.remove(20)
+# print(a)
+
+#과제18
+x=[i for i in range(1,6)]
+print(x)
