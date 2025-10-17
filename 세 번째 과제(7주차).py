@@ -46,9 +46,13 @@
 # x=[i for i in range(1,20)if i%2==1]
 # print(x)
 
-#과제20
-x, y=map(int, input('정수 2개를 입력:').split())
-z=[2**i for i in range(x,y+1)]
-del z[1]
-del z[-2]
-print(z)
+# #과제20
+# x, y=map(int, input('정수 2개를 입력:').split())
+# z=[2**i for i in range(x,y+1)]
+# del z[1]
+# del z[-2]
+# print(z)
+
+#과제21
+x='Hello,world!'
+print(x.replace('Hello','Hi'))
