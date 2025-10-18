@@ -54,5 +54,10 @@
 # print(z)
 
 #과제21
-x='Hello,world!'
+x=input('Hello, world! 입력:')
 print(x.replace('Hello','Hi'))
+
+#과제22
+x=input('문자 4개 입력:').split()
+x="/".join(x)
+print(x)
