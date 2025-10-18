@@ -53,11 +53,17 @@
 # del z[-2]
 # print(z)
 
-#과제21
-x=input('Hello, world! 입력:')
-print(x.replace('Hello','Hi'))
+# #과제21
+# x=input('Hello, world! 입력:')
+# print(x.replace('Hello','Hi'))
 
-#과제22
-x=input('문자 4개 입력:').split()
-x="/".join(x)
-print(x)
+# #과제22
+# x=input('문자 4개 입력:').split()
+# x="/".join(x)
+# print(x)
+
+#과제23
+x=input('본인의 성을 영어로 입력:')
+y=x.lower()
+z=y.rjust(10)
+print(z)
