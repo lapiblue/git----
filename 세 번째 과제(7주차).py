@@ -81,7 +81,12 @@
 # z=dict(zip(x, y))
 # print(z)
 
-#과제26
-park={'korean':94,'english':91,'mathematics':89,'science':83}
-print(park['english'])
-print(park['science'])
+# #과제26
+# park={'korean':94,'english':91,'mathematics':89,'science':83}
+# print(park['english'])
+# print(park['science'])
+
+#과제27
+kim={'korean':94,'english':91,'mathematics':89,'science':83}
+kim.update(korean=100, english=100, mathematics=100, science=100)
+print(kim)
