@@ -75,8 +75,13 @@
 # for i in x:
 #     print(str(i).rjust(9))
 
-#과제25
-x=input('키 입력:').split()
-y=input('값 입력:').split()
-z=dict(zip(x, y))
-print(z)
+# #과제25
+# x=input('키 입력:').split()
+# y=input('값 입력:').split()
+# z=dict(zip(x, y))
+# print(z)
+
+#과제26
+park={'korean':94,'english':91,'mathematics':89,'science':83}
+print(park['english'])
+print(park['science'])
