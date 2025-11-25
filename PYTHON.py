@@ -120,3 +120,11 @@ a=x|y
 b=x&y
 print(a)
 print(b)
+
+#과제33
+x={1,2,3,4,5}
+y={2,4,6,8,10}
+a=x-y
+b=x^y
+print(a)
+print(b)
