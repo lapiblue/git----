@@ -128,3 +128,8 @@ a=x-y
 b=x^y
 print(a)
 print(b)
+
+#과제34
+x={1,2,3,4,5}
+x.update({100})
+print(x)
