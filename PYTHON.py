@@ -200,3 +200,12 @@ num4 = int(input("네 번째 숫자 입력: "))
 y, z= function(num1, num2, num3, num4)
 print("최댓값:", y)
 print("최솟값:", z)
+
+#과제42
+def print_odd_numbers(a):
+    for i in range(a + 1):
+        if i % 2 == 1:
+            print(i, end=' ')
+
+x = int(input("양수 입력: "))
+print_odd_numbers(x)
