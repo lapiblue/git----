@@ -170,3 +170,12 @@ print(x)
 #과제38
 multiples={x for x in range(1,101)if x%3==0 and x%5==0}
 print(multiples)
+
+#과제39
+def print_odd_numbers(a):
+    for i in range(a + 1):
+        if i % 2 == 1:
+            print(i, end=' ')
+
+x = int(input("양수 입력: "))
+print_odd_numbers(x)
