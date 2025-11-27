@@ -232,3 +232,10 @@ def function(i, j):
 i = int(input("2 이상 9 이하의 첫 번째 숫자 입력: "))
 j = int(input("2 이상 9 이하의 두 번째 숫자 입력: "))
 print(function(i, j))
+
+#과제45
+def function(a):
+    return sum(a)
+
+x=[1,2,3,4,5]
+print(function(x))
