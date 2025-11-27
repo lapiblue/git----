@@ -219,3 +219,16 @@ def function(n):
 
 x = int(input("0 이상의 정수 입력: "))
 print(function(x))
+
+#과제44
+def function(i, j):
+    result = 0
+    for x in range(1, i+1):
+        for y in range(1, j+1):
+            if x*y >= 30:
+                result += x*y
+    return result
+
+i = int(input("2 이상 9 이하의 첫 번째 숫자 입력: "))
+j = int(input("2 이상 9 이하의 두 번째 숫자 입력: "))
+print(function(i, j))
