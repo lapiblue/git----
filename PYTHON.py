@@ -202,10 +202,20 @@ print("최댓값:", y)
 print("최솟값:", z)
 
 #과제42
-def print_odd_numbers(a):
+def function(a):
     for i in range(a + 1):
         if i % 2 == 1:
             print(i, end=' ')
 
 x = int(input("양수 입력: "))
-print_odd_numbers(x)
+function(x)
+
+#과제43
+def function(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+x = int(input("0 이상의 정수 입력: "))
+print(function(x))
